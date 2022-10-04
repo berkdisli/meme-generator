@@ -1,0 +1,23 @@
+@import url("http://fonts.cdnfonts.com/css/graffiti-font");
+
+header {
+  background-color: blueviolet;
+  display: flex;
+}
+
+img {
+  width: 130px;
+  padding: 20px;
+}
+
+p {
+  width: 10px;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: "graffiti font";
+  display: flex;
+  padding-left: 140px;
+}
