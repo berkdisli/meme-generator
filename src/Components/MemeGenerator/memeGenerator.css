@@ -1,0 +1,11 @@
+button {
+  color: aliceblue;
+  background-color: blueviolet;
+  border: transparent;
+  border-radius: 5px;
+  margin-left: 40px;
+  margin-top: 20px;
+  width: 50px;
+  height: 30px;
+  font-size: large;
+}
