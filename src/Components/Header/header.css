@@ -5,7 +5,7 @@ header {
   display: flex;
 }
 
-img {
+.troll {
   width: 130px;
   padding: 20px;
 }
