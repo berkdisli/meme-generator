@@ -33,6 +33,11 @@ class MemeGenerator extends Component {
         event.preventDefault()
         // get the meme from that index
         // set `randomImg` to the `.url` of the random item 
+
+        const randNum = Math.floor(Math.random() * this.state.allMemeImgs.lenght);
+        const randMemeImg = this.state.allMemeImgs[randNum].url;
+
+        this.setState({ randomImg: randMemeImg });
     }
 
     render() {
@@ -45,8 +50,6 @@ class MemeGenerator extends Component {
                         placeholder='Top Text'
                         value={this.state.topText}
                         onChange={this.handleChange}
-                        onfocus="this.value=''; this.color='blue'"
-
                     />
                     <input
                         type='text'
