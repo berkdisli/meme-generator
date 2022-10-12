@@ -39,7 +39,7 @@ h2 {
 .top {
   position: absolute;
   left: 0;
-  right: 160px;
+  right: 0;
   margin: 15px 0;
   padding: 0 5px;
   font-family: impact;
@@ -56,7 +56,7 @@ h2 {
 .bottom {
   position: absolute;
   left: 0;
-  right: 160px;
+  right: 0;
   margin: 15px 0;
   padding: 0 5px;
   font-family: impact;
@@ -71,10 +71,10 @@ h2 {
 }
 
 img {
-  padding-top: 10px;
-  padding-left: 50px;
   width: 600px;
   display: flex;
   background-size: 100%;
-  text-align: center;
+  top: 0;
+  left: 0;
+  padding-left: 120px;
 }

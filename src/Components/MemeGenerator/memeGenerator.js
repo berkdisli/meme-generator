@@ -34,10 +34,9 @@ class MemeGenerator extends Component {
         // get the meme from that index
         // set `randomImg` to the `.url` of the random item 
 
-        const randNum = Math.floor(Math.random() * this.state.allMemeImgs.lenght);
-        const randMemeImg = this.state.allMemeImgs[randNum].url;
-
-        this.setState({ randomImg: randMemeImg });
+        const randNum = Math.floor(Math.random() * this.state.allMemeImgs.length)
+        const randMemeImg = this.state.allMemeImgs[randNum].url
+        this.setState({ randomImg: randMemeImg })
     }
 
     render() {
