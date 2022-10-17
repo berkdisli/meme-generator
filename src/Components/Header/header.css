@@ -1,12 +1,12 @@
-@import url("http://fonts.cdnfonts.com/css/graffiti-font");
-
 header {
   background-color: blueviolet;
   display: flex;
+  left: 0;
+  top: 0;
 }
 
 .troll {
-  width: 130px;
+  width: 120px;
   padding: 20px;
 }
 
@@ -16,8 +16,11 @@ p {
   justify-content: center;
   color: aliceblue;
   font-weight: bolder;
-  font-size: 30px;
-  font-family: "graffiti font";
+  font-size: 35px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0px 2px 0 #000, 2px 0px 0 #000, 0px -2px 0 #000,
+    -2px 0px 0 #000, 2px 2px 5px #000;
   display: flex;
-  padding-left: 140px;
+  padding-left: 80px;
 }
