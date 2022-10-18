@@ -37,6 +37,7 @@ h2 {
 }
 
 .top {
+  position: absolute;
   left: 0;
   right: 0;
   margin: 15px 0;
