@@ -78,3 +78,19 @@ img {
   left: 0;
   padding-left: 140px;
 }
+
+@media only screen and (max-width: 480px) {
+  .meme {
+    position: relative;
+  }
+
+  button {
+    margin-top: 40px;
+    width: 100px;
+    height: 50px;
+  }
+
+  img {
+    padding-right: 110px;
+  }
+}
