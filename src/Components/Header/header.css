@@ -23,9 +23,9 @@ p {
   padding-left: 80px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 920px) {
   header {
-    width: 130vh;
+    width: 150vh;
     margin: 0 auto;
   }
 }

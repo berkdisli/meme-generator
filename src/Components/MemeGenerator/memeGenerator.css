@@ -79,7 +79,11 @@ img {
   padding-left: 140px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 915px) {
+  .meme-form {
+    justify-content: center;
+    align-items: center;
+  }
   .meme {
     position: relative;
   }
@@ -92,5 +96,13 @@ img {
 
   img {
     padding-right: 110px;
+  }
+}
+
+@media only screen and (max-width: 391px) {
+  img {
+    padding-right: 130px;
+    display: flex;
+    float: left;
   }
 }
